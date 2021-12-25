@@ -1,32 +1,14 @@
 # MostActiveCookie
 
-Prompt:
-Given a cookie log file in the following format:
+# How To Use
+1) Download the MostActiveCookie.jar file and move it to the same directory as the cookie log.
+2) Navigate to the directory of the MostActiveCookie.jar file through your terminal
+3) Type "java -jar MostActiveCookie.jar 'NAMEOFCOOKIELOGFILE' 'TIMEZONETAG' 'DATE'" to the terminal
+4) The application will print the most active cookie(s) in your terminal
 
-cookie,timestamp
-AtY0laUfhglK3lC7,2018-12-09T14:19:00+00:00
-SAZuXPGUrfbcn5UA,2018-12-09T10:13:00+00:00
-5UAVanZf6UtGyKVS,2018-12-09T07:25:00+00:00
-AtY0laUfhglK3lC7,2018-12-09T06:19:00+00:00
-SAZuXPGUrfbcn5UA,2018-12-08T22:03:00+00:00
-4sMM2LxV07bPJzwf,2018-12-08T21:30:00+00:00
-fbcn5UAVanZf6UtG,2018-12-08T09:30:00+00:00
-4sMM2LxV07bPJzwf,2018-12-07T23:30:00+00:00
+NAMEOFCOOKIELOGFILE : the name of the cookie log file (including the extension)
+TIMEZONETAG : currently, the application only supports the tag "-d" for this argument
+DATE : Date in the format YYYY-MM-DD
 
-Write a command line program in your preferred language to process the log file and return the most active
-cookie for specified day. The example below shows how we'll execute your program.
+Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. 
 
-Command:
-$ ./most_active_cookie cookie_log.csv -d 2018-12-09
-Output:
-AtY0laUfhglK3lC7
-
-We define the most active cookie as one seen in the log the most times during a given day.
-
-Assumptions:
- If multiple cookies meet that criteria, please return all of them on separate lines.
-
-$ ./most_active_cookie cookie_log.csv -d 2018-12-08
-SAZuXPGUrfbcn5UA
-4sMM2LxV07bPJzwf
-fbcn5UAVanZf6UtG
