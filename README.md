@@ -12,4 +12,6 @@ Note : The source code is in the "src" directory, feel free to compile the .java
 
 # Example Usage
 Line: java -jar MostActiveCookie.jar cookie_log.csv -d 2018-12-08
-![alt text](https://github.com/olsenbudanur/image.png?raw=true)
+![Test Image 1](image.png)
+
+
