@@ -8,5 +8,5 @@ NAMEOFCOOKIELOGFILE : the name of the cookie log file (including the extension) 
 TIMEZONETAG : currently, the application only supports the tag "-d" for this argument <br />
 DATE : Date in the format YYYY-MM-DD <br />
 
-Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. 
+Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. The "doc" directory stores the automatically generated JavaDoc by Eclipse IDE.
 
