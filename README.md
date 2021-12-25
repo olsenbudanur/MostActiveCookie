@@ -1,5 +1,3 @@
-# MostActiveCookie
-
 # How To Use
 1) Download the MostActiveCookie.jar file and move it to the same directory as the cookie log.
 2) Navigate to the directory of the MostActiveCookie.jar file through your terminal
