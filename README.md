@@ -6,9 +6,9 @@
 3) Type "java -jar MostActiveCookie.jar 'NAMEOFCOOKIELOGFILE' 'TIMEZONETAG' 'DATE'" to the terminal
 4) The application will print the most active cookie(s) in your terminal
 
-NAMEOFCOOKIELOGFILE : the name of the cookie log file (including the extension) \\
-TIMEZONETAG : currently, the application only supports the tag "-d" for this argument \\
-DATE : Date in the format YYYY-MM-DD \\
+NAMEOFCOOKIELOGFILE : the name of the cookie log file (including the extension) <br />
+TIMEZONETAG : currently, the application only supports the tag "-d" for this argument <br />
+DATE : Date in the format YYYY-MM-DD <br />
 
 Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. 
 
