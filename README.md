@@ -10,3 +10,6 @@ DATE : Date in the format YYYY-MM-DD <br />
 
 Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. The "doc" directory stores the automatically generated JavaDoc by Eclipse IDE.
 
+# Example Usage
+Line: java -jar MostActiveCookie.jar cookie_log.csv -d 2018-12-08
+![alt text](https://github.com/olsenbudanur/MostActiveCookie/blob/Screen Shot 2021-12-25 at 11.44.47 AM.png?raw=true)
