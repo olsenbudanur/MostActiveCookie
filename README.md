@@ -10,8 +10,7 @@ DATE : Date in the format YYYY-MM-DD <br />
 
 Note : The source code is in the "src" directory, feel free to compile the .java files and run the jUnit tests. The "doc" directory stores the automatically generated JavaDoc by Eclipse IDE.
 
-# Example Usages
-![Test Image 1](image.png)
+# Example Usage
 ![Test Image 2](example.png)
 
 
