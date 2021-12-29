@@ -5,27 +5,29 @@ import java.util.*;
 import java.time.LocalDateTime;
 
 public class MostActiveCookie {
-	//
-	// HashMap 1 ----> KEY: TIME, VALUE: HASHMAP<COOKIE, OCCURRENCE>
-	//
-	// This HashMap stores the number of occurrence of each cookie for 
-	// a specific time.
+	/**
+	 * HashMap 1 ----> KEY: TIME, VALUE: HASHMAP<COOKIE, OCCURRENCE>
+	 *
+	 * This HashMap stores the number of occurrence of each cookie for 
+	 * a specific time.
+	*/
 	private HashMap<String, HashMap<String, Integer>> occurrences;
 
-	//
-	// HashMap 2 ----> KEY: TIME, VALUE: MAX OCCURRENCE NUM
-	//
-	// This HashMap stores the maximum number of cookie
-	// occurrences for a specific time.
+	/**
+	 * HashMap 2 ----> KEY: TIME, VALUE: MAX OCCURRENCE NUM
+	 *
+	 * This HashMap stores the maximum number of cookie
+	 * occurrences for a specific time.
+	*/
 	private HashMap<String, Integer> maxOccurrenceNum;
 
-	//
-	// HashMap 3 ----> KEY: TIME, VALUE: MAX OCCURRENCE COOKIE
-	//
-	// This HashMap stores the cookie/cookies that have the maximum
-	// occurrences for a given time.
+	/**
+	 * HashMap 3 ----> KEY: TIME, VALUE: MAX OCCURRENCE COOKIE
+	 *
+	 * This HashMap stores the cookie/cookies that have the maximum
+	 * occurrences for a given time.
+	*/
 	private HashMap<String, ArrayList<String>> maxOccurrenceCookies;
-	
 	
 	/**
 	 * This is the constructor to our MostActiveCookie class.
@@ -123,7 +125,6 @@ public class MostActiveCookie {
 		}
 	}
 	
-	
 	/**
 	 * Returns the most active cookie for a given date. Adjusts the given date
 	 * to a UTC given it's time zone.
@@ -165,7 +166,6 @@ public class MostActiveCookie {
 		return maxOccurrenceCookies.get(date);
 	}
 	
-
 	/**
 	 * Given a standardized date format, convert it to UTC...
 	 * 
